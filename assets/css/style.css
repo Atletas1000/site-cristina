@@ -347,9 +347,9 @@ p { margin: 0 0 1em; }
 }
 .hero-photo img {
   width: 100%;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 3 / 4;
   object-fit: cover;
-  object-position: 50% 10%;
+  object-position: 50% 50%;
   border-radius: 32px;
   box-shadow: var(--shadow);
 }
@@ -913,7 +913,7 @@ p { margin: 0 0 1em; }
   .hero-grid { grid-template-columns: 1fr; gap: 72px; }
   .hero-copy { text-align: left; }
   .hero-photo { order: -1; justify-self: start; width: calc(100% - 28px); }
-  .hero-photo img { aspect-ratio: 4 / 5; object-position: 50% 10%; }
+  .hero-photo img { aspect-ratio: 3 / 4; object-position: 50% 50%; }
 
   .about-grid,
   .formacao-grid,
